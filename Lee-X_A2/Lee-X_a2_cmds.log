@@ -1,0 +1,162 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  git clone https://github.com/xiaoqilee/a1-collab-xiaoqilee
+    5  cd a1-collab-xiaoqilee
+    6  git branch xleefa24-collab
+    7  git branch
+    8  git checkout <xleefa24>
+    9  git branch
+   10  git checkout xleefa24-collab
+   11  git status
+   12  git branch
+   13  git status
+   14  ls
+   15  touch newfile.txt
+   16  ls
+   17  vi newfile.txt
+   18  passwd
+   19  vi mytest.txt
+   20  wc -l mytest.txt
+   21  vi mytest.txt
+   22  mkdir LeeX_A4_shell
+   23  ls
+   24  cd LeeX_A4_shell
+   25  vi class_practice.sh
+   26  sh class_practice.sh qi
+   27  vi class_practice.sh
+   28  sh class_practice.sh qi
+   29  vi class_practice.sh
+   30  $echo shell
+   31  $ echo shell
+   32  echo $SHELL
+   33  ls
+   34  ls -a
+   35  cat /etc/profile
+   36  cat ~/.bash_profile
+   37  alias ll='ls -1'
+   38  source ~/.bashrc
+   39  ll
+   40  mk dir
+   41  mkdir LeeX_A4
+   42  cd LeeX_A4
+   43  vi echoing.sh
+   44  who
+   45  vi echoing.sh
+   46  $sh LeeX_A4.sh
+   47  sh LeeX_A4.sh date
+   48  sh echoing.sh
+   49  sh echoing.sh 
+   50  sh echoing.sh date
+   51  vi echoing.sh
+   52  sh echoing.sh
+   53  vi echoing.sh
+   54  ls
+   55  ls -l mytest.txt
+   56  file
+   57  man tar
+   58  tar --help
+   59  ls
+   60  ls /bin
+   61  ls - la
+   62  ls -la
+   63  ls -F
+   64  ls *.txt
+   65  ls ?.txt
+   66  ls ???????.txt
+   67  more newfile.txt
+   68  cat newfile.txt
+   69  vi newfile.txt
+   70  cat newfile.txt
+   71  more newfile.txt
+   72  tail newfile.txt
+   73  pwd
+   74  ls
+   75  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles
+   76  ls
+   77  cd CS131_fa24_datafiles
+   78  cd Lec02
+   79  grep "luck" goodluck.txt
+   80  grep ^wor goodluck.txt
+   81  grep "wor" goodluck.txt
+   82  grep -o '\bwor\w*' goodluck.txt
+   83  grep "dred" goodluck.txt
+   84  grep -o "\dred\w*" goodluck.txt
+   85  grep -o '\w*dred\w*' goodluck.txt
+   86  grep "Good luck, babe" goodluck.txt
+   87  grep "Good luck, babe" goodluck.txt | wc -l
+   88  grep "Good luck, babe" goodluck.txt | wc -w
+   89  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+   90  cat Lee-X_a2_counts.txt
+   91  grep "Good luck, babe" goodluck.txt | wc -w >> Lee-X_a2_counts.txt
+   92  cat Lee-X_a2_counts.txt
+   93  vi Lee-X_a2_counts.txt
+   94  cat Lee-X_a2_counts.txt
+   95  vi Lee-X_a2_counts.txt
+   96  cat Lee-X_a2_counts.txt
+   97  history > Lee-X_a2_cmds.log
+   98  cat > Lee-X_a2_cmds.log
+   99  ls
+  100  cd CS131_fa24_datafiles
+  101  ls
+  102  cd Lec02
+  103  ls
+  104  cat Lee-X_a2_cmds.log
+  105  vi Lee-X_a2_cmds.log
+  106  vi Lee-X_a2_counts.txt
+  107  clear
+  108  grep "wor" goodluck.txt
+  109  grep -o '\bwor\w*' goodluck.txt
+  110  grep "dred" goodluck.txt
+  111  grep -o '\w*dred\w*' goodluck.txt
+  112  grep "Good luck, babe" goodluck.txt
+  113  grep "Good luck, babe" goodluck.txt | wc -l
+  114  grep "Good luck, babe" goodluck.txt | wc -c
+  115  grep "Good luck, babe" goodluck.txt | wc -w
+  116  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X.txt_a2_counts.txt
+  117  grep "Good luck, babe" goodluck.txt | wc -w > Lee-X.txt_a2_counts.txt
+  118  rm Lee-X.txt_a2_counts.txt
+  119  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  120  grep "Good luck, babe" goodluck.txt | wc -w > Lee-X_a2_counts.txt
+  121  cat Lee-X_a2_counts.txt
+  122  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  123  cat Lee-X_a2_counts.txt
+  124  grep "Good luck, babe" sample.txt | wc -w >> lastname-f.txt_a2_counts.txt
+  125  ls
+  126  cd mini-assignemnts-xiaoqilee
+  127  cd mini-assignments-xiaoqilee
+  128  ls
+  129  cd ..
+  130  cd Lee_X_A2
+  131  ls
+  132  rm Lee_X_A2
+  133  cd //
+  134  rm Lee_X_A2
+  135  cd mini-assignments-xiaoqilee
+  136  ls
+  137  cd ..
+  138  pwd
+  139  ls
+  140  rm Lee_X_A2
+  141  rm -r Lee_X_A2
+  142  ls
+  143  cd CS131_fa24_datafiles
+  144  ls
+  145  cd Lec02
+  146  ls
+  147  grep “wor” goodluck.txt
+  148  grep "wor" goodluck.txt
+  149  grep -o '\bwor\w*' goodluck.txt
+  150  grep "dred" goodluck.txt
+  151  grep -o "\w*dred\w*" goodluck.txt
+  152  grep "Good luck, babe" goodluck.txt
+  153  grep "Good luck, babe" goodluck.txt | wc -l
+  154  grep "Good luck, babe" goodluck.txt | wc -w
+  155  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  156  grep "Good luck, babe" goodluck.txt | wc -w > Lee-X_a2_counts.txt
+  157  cat Lee-X_a2_counts.txt
+  158  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  159  grep "Good luck, babe" goodluck.txt | wc -w >> Lee-X_a2_counts.txt
+  160  cat Lee-X_a2_counts.txt
+  161  vi Lee-X_a2_counts.txt
+  162  history > Lee-X_a2_cmds.log
