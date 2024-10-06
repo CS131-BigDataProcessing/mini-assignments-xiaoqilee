@@ -1,0 +1,606 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  git clone https://github.com/xiaoqilee/a1-collab-xiaoqilee
+    5  cd a1-collab-xiaoqilee
+    6  git branch xleefa24-collab
+    7  git branch
+    8  git checkout <xleefa24>
+    9  git branch
+   10  git checkout xleefa24-collab
+   11  git status
+   12  git branch
+   13  git status
+   14  ls
+   15  touch newfile.txt
+   16  ls
+   17  vi newfile.txt
+   18  passwd
+   19  vi mytest.txt
+   20  wc -l mytest.txt
+   21  vi mytest.txt
+   22  mkdir LeeX_A4_shell
+   23  ls
+   24  cd LeeX_A4_shell
+   25  vi class_practice.sh
+   26  sh class_practice.sh qi
+   27  vi class_practice.sh
+   28  sh class_practice.sh qi
+   29  vi class_practice.sh
+   30  $echo shell
+   31  $ echo shell
+   32  echo $SHELL
+   33  ls
+   34  ls -a
+   35  cat /etc/profile
+   36  cat ~/.bash_profile
+   37  alias ll='ls -1'
+   38  source ~/.bashrc
+   39  ll
+   40  mk dir
+   41  mkdir LeeX_A4
+   42  cd LeeX_A4
+   43  vi echoing.sh
+   44  who
+   45  vi echoing.sh
+   46  $sh LeeX_A4.sh
+   47  sh LeeX_A4.sh date
+   48  sh echoing.sh
+   49  sh echoing.sh 
+   50  sh echoing.sh date
+   51  vi echoing.sh
+   52  sh echoing.sh
+   53  vi echoing.sh
+   54  ls
+   55  ls -l mytest.txt
+   56  file
+   57  man tar
+   58  tar --help
+   59  ls
+   60  ls /bin
+   61  ls - la
+   62  ls -la
+   63  ls -F
+   64  ls *.txt
+   65  ls ?.txt
+   66  ls ???????.txt
+   67  more newfile.txt
+   68  cat newfile.txt
+   69  vi newfile.txt
+   70  cat newfile.txt
+   71  more newfile.txt
+   72  tail newfile.txt
+   73  pwd
+   74  ls
+   75  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles
+   76  ls
+   77  cd CS131_fa24_datafiles
+   78  cd Lec02
+   79  grep "luck" goodluck.txt
+   80  grep ^wor goodluck.txt
+   81  grep "wor" goodluck.txt
+   82  grep -o '\bwor\w*' goodluck.txt
+   83  grep "dred" goodluck.txt
+   84  grep -o "\dred\w*" goodluck.txt
+   85  grep -o '\w*dred\w*' goodluck.txt
+   86  grep "Good luck, babe" goodluck.txt
+   87  grep "Good luck, babe" goodluck.txt | wc -l
+   88  grep "Good luck, babe" goodluck.txt | wc -w
+   89  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+   90  cat Lee-X_a2_counts.txt
+   91  grep "Good luck, babe" goodluck.txt | wc -w >> Lee-X_a2_counts.txt
+   92  cat Lee-X_a2_counts.txt
+   93  vi Lee-X_a2_counts.txt
+   94  cat Lee-X_a2_counts.txt
+   95  vi Lee-X_a2_counts.txt
+   96  cat Lee-X_a2_counts.txt
+   97  history > Lee-X_a2_cmds.log
+   98  cat > Lee-X_a2_cmds.log
+   99  ls
+  100  cd CS131_fa24_datafiles
+  101  ls
+  102  cd Lec02
+  103  ls
+  104  cat Lee-X_a2_cmds.log
+  105  vi Lee-X_a2_cmds.log
+  106  vi Lee-X_a2_counts.txt
+  107  clear
+  108  grep "wor" goodluck.txt
+  109  grep -o '\bwor\w*' goodluck.txt
+  110  grep "dred" goodluck.txt
+  111  grep -o '\w*dred\w*' goodluck.txt
+  112  grep "Good luck, babe" goodluck.txt
+  113  grep "Good luck, babe" goodluck.txt | wc -l
+  114  grep "Good luck, babe" goodluck.txt | wc -c
+  115  grep "Good luck, babe" goodluck.txt | wc -w
+  116  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X.txt_a2_counts.txt
+  117  grep "Good luck, babe" goodluck.txt | wc -w > Lee-X.txt_a2_counts.txt
+  118  rm Lee-X.txt_a2_counts.txt
+  119  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  120  grep "Good luck, babe" goodluck.txt | wc -w > Lee-X_a2_counts.txt
+  121  cat Lee-X_a2_counts.txt
+  122  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  123  cat Lee-X_a2_counts.txt
+  124  grep "Good luck, babe" sample.txt | wc -w >> lastname-f.txt_a2_counts.txt
+  125  ls
+  126  cd mini-assignemnts-xiaoqilee
+  127  cd mini-assignments-xiaoqilee
+  128  ls
+  129  cd ..
+  130  cd Lee_X_A2
+  131  ls
+  132  rm Lee_X_A2
+  133  cd //
+  134  rm Lee_X_A2
+  135  cd mini-assignments-xiaoqilee
+  136  ls
+  137  cd ..
+  138  pwd
+  139  ls
+  140  rm Lee_X_A2
+  141  rm -r Lee_X_A2
+  142  ls
+  143  cd CS131_fa24_datafiles
+  144  ls
+  145  cd Lec02
+  146  ls
+  147  grep “wor” goodluck.txt
+  148  grep "wor" goodluck.txt
+  149  grep -o '\bwor\w*' goodluck.txt
+  150  grep "dred" goodluck.txt
+  151  grep -o "\w*dred\w*" goodluck.txt
+  152  grep "Good luck, babe" goodluck.txt
+  153  grep "Good luck, babe" goodluck.txt | wc -l
+  154  grep "Good luck, babe" goodluck.txt | wc -w
+  155  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  156  grep "Good luck, babe" goodluck.txt | wc -w > Lee-X_a2_counts.txt
+  157  cat Lee-X_a2_counts.txt
+  158  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  159  grep "Good luck, babe" goodluck.txt | wc -w >> Lee-X_a2_counts.txt
+  160  cat Lee-X_a2_counts.txt
+  161  vi Lee-X_a2_counts.txt
+  162  history > Lee-X_a2_cmds.log
+  163  ls
+  164  cat Lee-X_a2_cmds.log
+  165  ls
+  166  cp Lee-X_a2_cmds.log logCopy
+  167  ls
+  168  cp Lee-X_a2_counts.txt txtCopy
+  169  ls
+  170  grep "wor" goodluck.txt
+  171  ls
+  172  cd CS131_fa24_datafiles
+  173  cd Lec02
+  174  grep "wor" goodluck.txt
+  175  grep -o "\bwor\w*" goodluck.txt
+  176  grep "dred" goodluck.txt
+  177  grep -o "\w*\bdred\w*" goodluck.txt
+  178  grep -o "\w*dred\w*" goodluck.txt
+  179  grep "Good luck, babe" goodluck.txt
+  180  grep "Good luck, babe" goodluck.txt | wc -l
+  181  grep "Good luck, babe" goodluck.txt | wc -w
+  182  grep "Good luck, babe" goodluck.txt | wc -l > Lee-X_a2_counts.txt
+  183  grep "Good luck, babe" goodluck.txt | wc -w >> Lee-X_a2_counts.txt
+  184  cat Lee-X_a2.counts.txt
+  185  cat Lee-X_a2_counts.txt
+  186  vi Lee-X_a2_counts.txt
+  187  cat Lee-X_a2_counts.txt
+  188  history > Lee-X_a2_cmds.log
+  189  cat Lee-X_a2_cmds.log
+  190  ls
+  191  ..
+  192  cd ..
+  193  cd..
+  194  mkdir mini-assignment repo
+  195  git clone https://github.com/CS131-BigDataProcessing/mini-assignments-xiaoqilee
+  196  ls
+  197  cd xleefa24
+  198  ls
+  199  git clone https://github.com/CS131-BigDataProcessing/mini-assignments-xiaoqilee
+  200  ls
+  201  mkdir Lee_X_A2
+  202  ls
+  203  cd CS131-fa24_datafiles
+  204  cd CS131_fa24_datafiles
+  205  cd Lec02
+  206  ls
+  207  rm lastname-f.txt_a2_counts.txt
+  208  ls
+  209  mv Lee-X_a2_cmds.log ../..
+  210  ls
+  211  mv Lee-X_a2_counts.txt ../..
+  212  ls
+  213  cd ..
+  214  ls
+  215  mv Lee-X_a2_counts.txt mini-assignments-xiaoqilee
+  216  ls
+  217  mv Lee-X_a2_cmds.log mini-assignments-xiaoqilee
+  218  ls
+  219  git add .
+  220  git add --all
+  221  ls
+  222  cd mini-assignments-xiaoqilee
+  223  git add --all
+  224  git commit -m "a2"
+  225  git commit -m
+  226  git commit -m "lesson 2"
+  227  git add --all
+  228  git commit -m "changes"
+  229  git branch
+  230  cd mini-assignemnts-xiaoqilee
+  231  git checkout mini-assignemnts-xiaoqilee
+  232  git branch
+  233  ls
+  234  cd ..
+  235  ls
+  236  git branch
+  237  cd a1-collab-xiaoqilee
+  238  git branch
+  239  ls
+  240  cd ..
+  241  cd mini-assignemnts-xiaoqilee
+  242  cd mini-assignments-xiaoqilee
+  243  git branch
+  244  git branch xleefa24-a2
+  245  git branch
+  246  mv Lee-X_a2_cmds.log xleefa24-a2
+  247  mv Lee-X_a2_counts.txt xleefa24-a2
+  248  git branch xleefa24-aw
+  249  ls
+  250  git branch -d xleefa24-aw
+  251  git checkout xleefa24-a2
+  252  ls
+  253  git add --all
+  254  git commit -m "a2"
+  255  git branch
+  256  ls]
+  257  ls
+  258  cd ..
+  259  cd mini-assignments-xiaoqilee
+  260  git branch
+  261  cd ..
+  262  cat Lee-X_a2_cmds.log
+  263  cd mini-assignments-xiaoqilee
+  264  cat Lee-X_a2_cmds.log
+  265  git checkout main
+  266  ls
+  267  cd xleefa24-a2
+  268  ls
+  269  cd CS131_fa24_datafiles
+  270  pwd
+  271  cd ..
+  272  cd min-assignments-xiaoqilee
+  273  cd mini-assignments-xiaoqilee
+  274  pwd
+  275  ls
+  276  cd .
+  277  cd ..
+  278  ls
+  279  cd CS131_fa24_datafiles
+  280  ls
+  281  cd Lec02
+  282  ls
+  283  mv Lee-X_a2_counts.txt /mnt/scratch/FA24_CS131_Jessica/xleefa24/mini-assignments-xiaoqilee
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd mini-assignments-xiaoqilee
+  288  ls
+  289  mkdir Lee-X_A2
+  290  ls
+  291  rmdir xleefa24-a2
+  292  mv Lee-X_a2_counts.txt /mnt/scratch/FA24_CS131_Jessica/xleefa24/mini-assignments-xiaoqilee/Lee-X_A2
+  293  cd Lee-X_A2
+  294  ls
+  295  cd //
+  296  ls
+  297  cd mini-assignments-xiaoqilee
+  298  pwd
+  299  ls
+  300  cd mini-assignments-xiaoqilee
+  301  ls
+  302  cd Lee-X_A2
+  303  ls
+  304  cat Lee-X_a2_counts.txt
+  305  cd ..
+  306  ls
+  307  cd CS131_fa24_datafiles
+  308  cd Lec02
+  309  ls
+  310  cd ..
+  311  ls
+  312  cd mini-assignemnts-xiaoqilee
+  313  ls
+  314  cd mini-assignments-xiaoqilee
+  315  ls
+  316  cd Lee-X_A2
+  317  pwd
+  318  cd ..
+  319  cd CS131_fa24_datafiles
+  320  cd Lec02
+  321  ls
+  322  mv Lee-X_a2_cmds.log /mnt/scratch/FA24_CS131_Jessica/xleefa24/mini-assignments-xiaoqilee/Lee-X_A2
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd mini-assignments-xiaoqilee
+  327  ls
+  328  cd Lee-X_A2
+  329  ls
+  330  cat Lee-X_a2_cmds.log
+  331  cd ..
+  332  pwd
+  333  cd mini-assignments-xiaoqilee
+  334  git add --all
+  335  git commit -m "a2"
+  336  git config user.name "Xiao Qi Lee"
+  337  git config user.email "xiaoqilee@yahoo.com"
+  338  git add --all
+  339  git commit -m "a2"
+  340  git pull
+  341  git push
+  342  ls
+  343  git add --all
+  344  git commit -m "a2v2"
+  345  git push
+  346  push origin/main
+  347  git push
+  348  ls
+  349  cd mini-assignments-xiaoqilee
+  350  ls
+  351  cd Lee-X_A2
+  352  ls
+  353  cd ..
+  354  mkdir LeeX_A4
+  355  vi echoing.sh
+  356  cat echoing.sh
+  357  echo hi
+  358  echoing "hi"
+  359  echo "hi"
+  360  who
+  361  date
+  362  $HOME
+  363  $USER
+  364  USER
+  365  $USER
+  366  $HOME
+  367  $USER
+  368  vi echoing.sh
+  369  sh echoing.sh
+  370  vi echoing.sh
+  371  $USER
+  372  echo $USER
+  373  $HOME
+  374  echo $HOME
+  375  vi echoing.sh
+  376  sh echoing.sh
+  377  vi echoing.sh
+  378  sh echoing.sh Qi 0
+  379  vi echoing.sh
+  380  sh echoing.sh Qi 0
+  381  vi echoing.sh
+  382  sh echoing.sh Qi 0
+  383  vi echoing.sh
+  384  sh echoing.sh Qi 0
+  385  vi echoing.sh
+  386  sh echoing.sh Qi 0
+  387  vi echoing.sh
+  388  sh echoing.sh Qi 0
+  389  vi echoing.sh
+  390  sh echoing.sh Qi 0
+  391  vi echoing.sh
+  392  sh echoing.sh Qi 0
+  393  vi echoing.sh
+  394  sh echoing.sh Qi 0
+  395  vi echoing.sh
+  396  sh echoing.sh Qi 0
+  397  vi echoing.sh
+  398  sh echoing.sh Qi 0
+  399  vi echoing.sh 
+  400  sh echoing.sh Qi 0
+  401  vi echoing.sh 
+  402  sh echoing.sh Qi 0
+  403  vi echoing.sh 
+  404  sh echoing.sh Qi 0
+  405  vi echoing.sh 
+  406  sh echoing.sh Qi 0
+  407  vi echoing.sh 
+  408  sh echoing.sh Qi 0
+  409  ls
+  410  git add --all
+  411  git commit -m "A4"
+  412  git push
+  413
+  414  git push
+  415  git add --all
+  416  git commit -m "A4 Changes"
+  417  git push
+  418  ls
+  419  cd LeeX_A4
+  420  git add --all
+  421  git commit -m "A4 commit"
+  422  git push
+  423  cd
+  424  ls
+  425  git add--all LeeX_A4
+  426  pwd
+  427  cs LeeX_A4
+  428  cd LeeX_A4
+  429  pwd
+  430  git add /mnt/scratch/FA24_CS131_Jessica/xleefa24/LeeX_A4
+  431  git add /mnt/scratch/FA24_CS131_Jessica/xleefa24
+  432  cd mini-assignments-xiaoqilee
+  433  cd ..
+  434  ls
+  435  cd mini-assignments-xiaoqilee
+  436  ls
+  437  cd LeeX_A4
+  438  ls
+  439  cp echoing.sh /mnt/scratch/FA24_CS131_Jessica/xleefa24/LeeX_A4
+  440  ls
+  441  cd ..
+  442  cp echoing.sh /mnt/scratch/FA24_CS131_Jessica/xleefa24/LeeX_A4
+  443  ls
+  444  cd LeeX_A4
+  445  ls
+  446  cd ..
+  447  ls
+  448  cd LeeX_A4
+  449  pwd
+  450  cd ..
+  451  cp echoing.sh /mnt/scratch/FA24_CS131_Jessica/xleefa24/mini-assignments-xiaoqilee/LeeX_A4
+  452  ls
+  453  cd LeeX_A4
+  454  ls
+  455  git add /mnt/scratch/FA24_CS131_Jessica/xleefa24/mini-assignments-xiaoqilee/LeeX_A4
+  456  git commit -m "A4 Folder"
+  457  git push
+  458  ls
+  459  cd mini-assignments-xiaoqilee
+  460  ls
+  461  mkdir LeeX_A5
+  462  ls
+  463  cd LeeX_A5
+  464  vi age.sh
+  465  sh age.sh 5
+  466  vi age.sh
+  467  sh age.sh 5
+  468  sh age.sh 17
+  469  sh age.sh 48
+  470  sh age.sh 72
+  471  vi age.sh
+  472  ls
+  473  vi temperature.sh
+  474  sh temperature.sh 62
+  475  vi temperature.sh 
+  476  sh temperature.sh 62
+  477  vi temperature.sh 
+  478  sh temperature.sh 62
+  479  vi temperature.sh 
+  480  sh temperature.sh 62
+  481  vi temperature.sh 
+  482  sh temperature.sh 62
+  483  sh temperature.sh 5
+  484  sh temperature.sh 97
+  485  sh temperature.sh 73
+  486  ls
+  487  cd ..
+  488  ls
+  489  git add --all
+  490  git commit -m "A5"
+  491  git push
+  492  cd LeeX_A5
+  493  ls
+  494  vi temperature.sh
+  495  ls
+  496  cd cs131_fa24_datafiles
+  497  cd CS131_fa24_datafiles/
+  498  LS
+  499  ls
+  500  wget https://raw.githubusercontent.com/CS131-BigDataProcessing/CS131_fa24_datafiles/tree/main/Lec08
+  501  ls
+  502  mkdir Lec08
+  503  ls
+  504  cd Lec08
+  505  vi airline_stats.csv
+  506  cd CS131_fa24_datafiles/
+  507  ls
+  508  rm Lec08
+  509  rmdir Lec08
+  510  cd Lec08
+  511  ls
+  512  cd ..
+  513  git pull
+  514  ls
+  515  Lec08
+  516  cd Lec08
+  517  rm airline_stats.csv 
+  518  ls
+  519  cd ..
+  520  rmdir Lec08
+  521  rm -r Lec08
+  522  ls
+  523  git pull
+  524  ls
+  525  cd CS131_fa24_datafiles/
+  526  ls
+  527  cd Lec08
+  528  ls
+  529  cd CS131_fa24_datafiles/
+  530  ls
+  531  cd Lec08
+  532  ls
+  533  head -n 10airline_stats.csv
+  534  -n 10 airline_stats.csv
+  535  head -n 10 airline_stats.csv
+  536  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  537  awk -F, '{print $4}' airline_stats.csv
+  538  awk -F, '{print $4}' airline_stats.csv | uniq
+  539  ls
+  540  cd CS131_fa24_datafiles/
+  541  ls
+  542  cd Lec08
+  543  ls
+  544  awk -F, '{print $4}' airline_stats.csv | uniq
+  545  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  546  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  547  awk -F, '$1 > 15 {print $4}' airline_stats.csv | sort | uniq
+  548  awk -F, '$1 > 25 {print $4}' airline_stats.csv | sort | uniq
+  549  awk -F, -v Threshold=15 '$1 > Threshold {print $4}' airline_stats.csv | sort | uniq
+  550  ls
+  551  cd CS131_fa24_datafiles/
+  552  ls
+  553  cd Lec08
+  554  ls
+  555   awk -F, '{print $4}' airline_stats.csv
+  556  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  557  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  558  awk -F, -v Threshold = 15 '$1 > Threshold {print $4}' airline_stats.csv | sort | uniq
+  559  awk -F, -v Threshold=15 '$1 > Threshold {print $4}' airline_stats.csv | sort | uniq
+  560  history > a6_cmds.log
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd Lec07
+  565  ls
+  566  cd ..
+  567  pwd
+  568  cd Lec08
+  569  ls
+  570  cd a6_cmds.log
+  571  pwd
+  572  cd ..
+  573  ls
+  574  cd ..
+  575  ls
+  576  cd mini-assignments-xiaoqilee/
+  577  ls
+  578  cd LeeX_A6
+  579  mkdir LeeX_A6
+  580  ls
+  581  cd LeeX_A6
+  582  pwd
+  583  cd ..
+  584  ls
+  585  cd CS131_fa24_datafiles/
+  586  cd Lec08
+  587  ls
+  588  mv a6_cmds.log /mnt/scratch/FA24_CS131_Jessica/xleefa24/mini-assignments-xiaoqilee/LeeX_A6
+  589  ls
+  590  cd ..
+  591  ls
+  592  cd mini-assignments-xiaoqilee/
+  593  ls
+  594  cd LeeX_A6
+  595  ls
+  596  cat a6_cmds.log
+  597  ls
+  598  vi airline_inquiry.txt
+  599  cat airline_inquiry.txt
+  600  vi airline_inquiry.txt
+  601  cat airline_inquiry.txt
+  602  cd ..
+  603  ls
+  604  cd LeeX_A6
+  605  ls
+  606  history > a6_cmds.log

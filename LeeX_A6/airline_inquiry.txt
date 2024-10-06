@@ -1,0 +1,14 @@
+1. The airlines in the csv file are Alaska, American, Delta, Jet Blue, Southwest, and United. The awk command used to get this info was:
+ awk -F, '{print $4}' airline_stats.csv | sort | uniq
+
+To get the all of the airlines not uniquely awk -F, '{print $4}' airline_stats.csv would print every value in the 4th column
+
+
+2a. The airlines in the csv file with a carrier delay greater than 10 are Alaska, American, Delta, Jet Blue, Southwest, and United. The awk command used to get this info was: 
+awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+
+
+ 
+2b. The airlines in the csv file with a carrier delay greater than 15 are: Alaska, American, Delta, Jet Blue, Southwest, and United. THe awk command used to get this info was: 
+awk -F, -v Threshold=15 '$1 > Threshold {print $4}' airline_stats.csv | sort | uniq
+
