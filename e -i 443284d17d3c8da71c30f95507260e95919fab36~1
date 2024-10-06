@@ -1,0 +1,62 @@
+[33mcommit cc53c3e5bab602d363c65ce630b3096ae6fa452a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Sun Oct 6 05:42:20 2024 -0400
+
+     a6 additions
+
+[33mcommit 4035c70324490b0ee94162aea712052af523ae42[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Sun Oct 6 05:31:04 2024 -0400
+
+    a6
+
+[33mcommit 443284d17d3c8da71c30f95507260e95919fab36[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Sun Oct 6 05:07:48 2024 -0400
+
+    A6
+
+[33mcommit 9fe97fffd8c0fcc50dda3d2cc5b9b32c987a261b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Mon Sep 23 00:40:56 2024 -0400
+
+    A5
+
+[33mcommit a855573e42072d802a1c1367bf3a5ab0af1bdfc0[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Sun Sep 22 20:23:09 2024 -0400
+
+    A4 Folder
+
+[33mcommit 1c0f6be31808db6359f32b3f2c96bf44dec76961[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Sun Sep 22 20:03:48 2024 -0400
+
+    A4
+
+[33mcommit edab71e0d80e0c4807d9e23a1a15a15e2dd67f49[m
+Author: Xiao Qi Lee <xiaoqilee@yahoo.com>
+Date:   Thu Sep 19 05:58:27 2024 -0400
+
+    a2
+
+[33mcommit 6e2c691578de2a568512d136e8fa58d89d48432e[m[33m ([m[1;32mxleefa24-a2[m[33m)[m
+Merge: 91baa34 e8bedb1
+Author: Jessica Huynh-Westfall <jessicawestfall@gmail.com>
+Date:   Wed Sep 4 06:00:49 2024 -0700
+
+    Merge pull request #1 from CS131-BigDataProcessing/main
+    
+    Added the log history for A2
+
+[33mcommit e8bedb11b7701f1f5a0baac4845d307c2c15b2d3[m
+Author: Tiger <tigeryang2005@gmail.com>
+Date:   Mon Aug 26 11:10:52 2024 -0700
+
+    Added the log history for A2
+
+[33mcommit 91baa34cbaf74b053acbbf1ea3f1c3cd999500a3[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Aug 26 06:26:22 2024 +0000
+
+    Initial commit
