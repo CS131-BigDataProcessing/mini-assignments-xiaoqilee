@@ -14,7 +14,7 @@ Files Included:
    - Explains purpose and content of assignment submission
 
 
-                                                                                  crontab.txt - Task 1: Delete all files from a temporary directory every day at 2:00 AM                                                                              Command: 0 2 * * * /bin/rm -rf /mnt/scratch/FA24_CS131_Jessica/xleefa24/temp/*
+crontab.txt - Task 1: Delete all files from a temporary directory every day at 2:00 AM                                                                              Command: 0 2 * * * /bin/rm -rf /mnt/scratch/FA24_CS131_Jessica/xleefa24/temp/*
 
 crontab.txt - Task 2: Back up your home directory every Sunday at 3:00 AM
 Command: 0 3 * * 0 tar -czf /mnt/scratch/FA24_CS131_Jessica/xleefa24/backups/backup.tar.gz /mnt/scratch/FA24_CS131_Jessica/xleefa24
