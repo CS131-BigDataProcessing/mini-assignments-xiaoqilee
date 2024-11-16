@@ -1,0 +1,4 @@
+0 2 * * * /bin/rm -rf /mnt/scratch/FA24_CS131_Jessica/xleefa24/temp/*
+0 3 * * 0 tar -czf /mnt/scratch/FA24_CS131_Jessica/xleefa24/backups/backup.tar.gz /mnt/scratch/FA24_CS131_Jessica/xleefa24
+30 8 * * * df -h | mail -s "disk usage report" xiaoqi.lee@sjsu.edu
+

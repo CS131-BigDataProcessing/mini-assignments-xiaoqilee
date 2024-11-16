@@ -1,0 +1,7 @@
+1. What other types of tasks (provide 2) could benefit from automation using cron or at? (4 pts)
+
+One type of task you could do is to use cron to check for updates after a certain time period to ensure everything is always up to date instead of manually checking at random intervals. Another thing that cron could be used for is tasks that benefit from keeping a time series. For example, a time series that records performance/speed or memory usage to collect data that can be analyzed to detect trends. A use of at could be scheduling to run a task during an off peak hour to avoid slowing down the system.
+
+2. What potential risks are there with poorly managed automated tasks, and how can you avoid them (e.g., ensuring backups work correctly)? (2 pts)
+
+Some potential risks with poorly managed automated tasks are deleting important files and scheduling tasks that conflict with one another. To avoid these, you should always test your automated task before officially implementing it and instead of permanently deleting the files, you could transfer them to a recently deleted file that will be refreshed after a 30 day period. To avoid conflicts, special attention should be paid to the time of each task and whether or not they are dependent on one another. Checks can be put in place that prohibits running one task until another is finished
