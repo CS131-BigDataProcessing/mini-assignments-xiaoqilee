@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: crime_test
+Version: 1.0
+Summary: Validating crime victim data package
+Author: Xiao Qi Lee
+Author-email: xiaoqi.lee@sjsu.edu
+Requires-Dist: pandas>=1.0
